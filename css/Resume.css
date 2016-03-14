@@ -1,0 +1,90 @@
+@font-face {font-family: '_Helvetica'; 
+	src: url('../fonts/Helvetica CE Regular.ttf') format('truetype');
+}
+
+table td {
+	vertical-align: baseline;
+}
+
+table td:nth-child(even) h4, table td:nth-child(even) h2 {
+	text-align: right;
+}
+
+body{
+		background-color: #ffd966;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+#washer > img {
+		margin-right : 100px;
+	}
+	
+	#washer {
+		width: 75%;
+	}	
+}
+
+
+#stickingMenu {
+	top : 0px;
+	position : fixed;
+	background-color: #666;
+	width: 100%;
+}
+
+#washer {
+	color : #fff;
+	height: 50px;
+	margin : 0px auto;			
+	padding-left : 155px;
+	width: 61.5%;
+}
+
+#washer  h3{ 
+	color: whitesmoke;
+	margin: 25px 0px 15px 0px;
+}
+
+#washer  a{ 
+	color: #fff;
+	font-weight: bold;
+}
+#washer  a:hover{
+	color: rgb(0, 0, 238);
+}
+
+#washer > img {
+	width: 100px;
+    float: right;
+    padding-right: 79px;
+	margin: 0;
+}
+
+#floater {
+	float : left;	
+}
+		
+body {color: #444; font-family: "_Helvetica"; margin: 0;}
+#main {padding: 10px 80px; margin: 0 auto; background: rgb(254, 235, 181); border-top: solid #666; border-width: 8px 0 2px 0;}
+#hd {margin: 2.5em 0 3em 0; padding-bottom: 1.5em; border-bottom: 1px solid #ccc }
+/*#bd {margin-bottom: 2em;}*/
+#hd h1 {font-size: 48px; font-variant: small-caps; letter-spacing: 3px;}
+#resume{width:73.076em;*width:71.25em;margin:auto;text-align:left;}
+#hd:after,#bd:after,.bd-b:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.bd-b .bd-c{float:right;}
+.bd-b div.first {float:left;}
+.bd-b{zoom:1;}
+.bd-b .bd-c{width:80.2%;}
+.bd-b div.first{width:12.3%;}
+.bd-b {margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+h1, h2, h3 {color: #333;}
+p {font-size: 100%; line-height: 18px; padding-right: 3em;}
+p.enlarge {font-size: 144%; padding-right: 6.5em; line-height: 24px;}
+p.enlarge span {color: #000}
+.job {position: relative; margin-bottom: 1em; padding-bottom: 1em; }
+.talent p {font-size: 150%; margin: 0.75em 0 3em 0; }
+.contact {width: 60%;float: left;}
+img {float: right; margin-top: 5%;}
+.clearfix {clear: both;}
